@@ -598,11 +598,11 @@ Section Teams
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .backdrop.is-open {
+.backdrop.is-open {
   opacity: 0;
   visibility: visible;
   pointer-events: initial;
-} */
+}
 
 .form-main {
   position: absolute;
