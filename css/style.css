@@ -667,11 +667,11 @@ Section Teams
   margin-bottom: 4px;
 }
 
-.backdrop-form-first {
+.backdrop-form-elem {
   position: relative;
 }
 
-.form-first-input {
+.form-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
