@@ -537,6 +537,10 @@ Section Teams
 
 /* form section */
 
+.form-container {
+  margin-left: auto;
+}
+
 .form-container-text {
   margin-bottom: 16px;
   font-weight: 500;
@@ -633,6 +637,10 @@ Section Teams
 .main-form-btn:hover {
   background-color: #404bbf;
   border: none;
+}
+
+.subscribe {
+  margin-left: 16px;
 }
 
 .backdrop-close {
