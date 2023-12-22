@@ -446,7 +446,7 @@
         <div class="form-container">
           <p class="form-container-text">Subscribe</p>
           <form class="form-footer" action="">
-            <label class="form-footer-label" for="">
+            <label class="form-footer-label" for="email">
               <input
                 class="footer-input"
                 type="email"
@@ -477,8 +477,8 @@
         </p>
 
         <form action="">
-          <div class="backdrop-form">
-            <label class="backdrop-label" for="user-name">Name</label>
+          <div class="form-wrapper">
+            <label class="form-label" for="user-name">Name</label>
             <div class="backdrop-form-elem">
               <input
                 class="form-input"
@@ -490,8 +490,8 @@
               </svg>
             </div>
           </div>
-          <div class="backdrop-form">
-            <label class="backdrop-label" for="user-name">Phone</label>
+          <div class="form-wrapper">
+            <label class="form-label" for="user-name">Phone</label>
             <div class="backdrop-form-elem">
               <input
                 class="form-input"
@@ -503,8 +503,8 @@
               </svg>
             </div>
           </div>
-          <div class="backdrop-form">
-            <label class="backdrop-label" for="user-name">Email</label>
+          <div class="form-wrapper">
+            <label class="form-label" for="user-name">Email</label>
             <div class="backdrop-form-elem">
               <input
                 class="form-input"
@@ -515,6 +515,15 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
+          </div>
+          <div class="form-wrapper wrapper-comment">
+            <label for="user-comment" class="form-label">Comment</label>
+            <textarea
+              class="form-message"
+              name="user-comment"
+              id="user-comment"
+              rows="4"
+              placeholder="Text input"></textarea>
           </div>
         </form>
       </div>
