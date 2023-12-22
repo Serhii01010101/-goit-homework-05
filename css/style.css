@@ -647,8 +647,8 @@ Section Teams
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop-close:hover,
-.backdrop-close:focus {
+.main-form-btn:hover .backdrop-close,
+.main-form-btn:focus .backdrop-close {
   fill: #ffffff;
 }
 
